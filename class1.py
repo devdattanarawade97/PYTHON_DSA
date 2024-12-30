@@ -1,5 +1,5 @@
 from math import factorial
-
+import os
 class class1:
     def __init__(self):
         self.a=10
@@ -25,4 +25,14 @@ obj=class1()
 print(obj.add())
 print("var a :",obj.a)
 print(factorial(64))
+
+import sys;
+
+var1=sys.argv[1]
+var2=sys.argv[2]
+os.remove('b1.txt')
+print(var1)
+print(var2)
 print("var c :",obj.__c)
+
+
