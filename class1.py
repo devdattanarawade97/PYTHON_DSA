@@ -1,4 +1,4 @@
-
+from math import factorial
 
 class class1:
     def __init__(self):
@@ -13,9 +13,16 @@ class class1:
         print("var a : ",self.a)
         print("var b : ",self.b)
         print("var c : ",self.__c)
+         
+    
+
+        
+
+
 
 
 obj=class1()
 print(obj.add())
 print("var a :",obj.a)
+print(factorial(64))
 print("var c :",obj.__c)
